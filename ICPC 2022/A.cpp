@@ -1,6 +1,6 @@
 /*
 INC 2022
-[R] Party Medley (https://tlx.toki.id/problems/inc-2022/R)
+[A] Party Medley (https://tlx.toki.id/problems/inc-2022/R)
 
 Solved by   : codewara
 Solve date  : 25-10-2024
