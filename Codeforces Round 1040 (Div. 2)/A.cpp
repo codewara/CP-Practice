@@ -29,17 +29,3 @@ signed main () {
     while (t--) solve ();
     return 0;
 }
-
-/*
-Brief Problem Statement:
-Given n integers and initial score of 0. Every integers registered to S[].
-You can take x = subset of S[] and perform the following operation:
-- Get mex(x) = smallest non-negative integer not in x. Then remove x from S[] and add mex(x) to the score.
-- Get sum(x) = sum of all elements in x. Then remove x from S[] and add sum(x) to the score.
-Find the maximum score possible after performing all operations.
-
-Solution:
-1. If the input contains 0, take x as {0} and add 1 to the score. (mex({0}) = 1)
-2. Any other positive integers can be taken as x, and their sum can be added to the score. (sum(x) = sum of all elements in x)
-The final score is the count of zeros plus the sum of all positive integers in the input.
-*/
