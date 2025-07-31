@@ -6,6 +6,27 @@
 > **[My Solution](A.cpp)**
 ```
 Brief Problem Statement:
+Given n integers and initial score of 0. Every integers registered to S[].
+You can take x = subset of S[] and perform the following operation:
+- Get mex(x) = smallest non-negative integer not in x. Then remove x from S[] and add mex(x) to the score.
+- Get sum(x) = sum of all elements in x. Then remove x from S[] and add sum(x) to the score.
+Find the maximum score possible after performing all operations.
+
+Solution:
+1. If the input contains 0, take x = {0} and add 1 to the score. (mex({0}) = 1)
+2. Repeat the process for all zeros in the input, so the score increases by 1 for each zero.
+3. For any other positive integers, they can be taken as a single set of y (y = {non-zero integers}).
+   mex(y) < max(y) < sum(y), so we can take the sum of all positive integers for the maximum score.
+The final score is basically the count of zeros plus the sum of all positive integers in the input.
+
+score = count(0) + sum(non-zero integers)
+```
+
+## B. [Pathless](https://codeforces.com/contest/2130/problem/A)
+### Tags: Greedy, Case Analysis, Constructive Algorithms
+> **[My Solution](B.cpp)**
+```
+Brief Problem Statement:
 Given an array of n integers consisting of values 0, 1, and 2, and an integer s.
 It is guaranteed that the array contains at least one 0, one 1, and one 2.
 You have to start from the leftmost element and reach the rightmost element.
@@ -28,10 +49,6 @@ Solution:
 * Always rearrange the array in the order of 0s, 2s, and then 1s to ensure no adjacent pairs can sum to 1.
 * output -1 if s is exactly the minimum path sum or if d > 1. (s = sum or s >= sum + 2)
 ```
-
-## B. [Pathless](https://codeforces.com/contest/2130/problem/A)
-### Tags: Greedy, Case Analysis, Constructive Algorithms
-> **[My Solution](B.cpp)**
 
 ## C. [Double Perspective](https://codeforces.com/contest/2130/problem/C)
 ### Tags: Graph Theory, Intervals, Greedy
