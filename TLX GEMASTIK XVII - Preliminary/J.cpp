@@ -50,15 +50,3 @@ signed main () {
     while (t--) solve ();
     return 0;
 }
-
-/*
-Brief Problem Statement:
-Given N poles with their heights in an array.
-You need to determine the maximum and minimum highest difference between any two poles.
-
-Solution:
-1. Sort the array of heights.
-2. The maximum highest difference is the difference between the tallest and shortest pole.
-3. The minimum highest difference is the maximum difference between any two adjacent poles in the sorted array.
-4. Print the minimum and maximum highest differences.
-*/

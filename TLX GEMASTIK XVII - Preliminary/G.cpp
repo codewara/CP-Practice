@@ -64,16 +64,3 @@ signed main () {
     while (t--) solve ();
     return 0;
 }
-
-/*
-Brief Problem Statement:
-Given N days of buying and selling hat prices.
-If you buy a hat on day i, you can only sell it on day i + 2 or later.
-You need to determine the maximum profit you can make.
-
-Solution:
-1. If N < 3, always output "tidak mungkin".
-2. If N == 3, print the profit if day 3's selling price is greater than day 1's buying price, otherwise print "tidak mungkin".
-3. For N > 3, calculate the maximum profit by iterating through the days and keeping track of the maximum selling price seen so far.
-4. Output the maximum profit if it's positive, otherwise output "tidak mungkin".
-*/

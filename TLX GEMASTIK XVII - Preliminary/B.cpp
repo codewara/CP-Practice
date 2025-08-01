@@ -46,16 +46,3 @@ signed main () {
     while (t--) solve ();
     return 0;
 }
-
-/*
-Brief Problem Statement:
-Given a number of friends (N) and a length of lumpia (L). L divided by N is always an even number.
-You have to divide the lumpia into N + 1 parts by performing N cuts.
-On the i-th cut, select the Bᵢ-th piece from the left and cuts it into two equal parts.
-You need to determine the final lengths of all lumpia pieces after all cuts have been performed.
-
-Solution:
-1. Start with the initial length of lumpia L.
-2. For each cut, divide the selected piece by 2 and insert the new piece at the specified position.
-3. After all cuts, print the lengths of all pieces in order.
-*/

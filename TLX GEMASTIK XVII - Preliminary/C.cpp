@@ -66,18 +66,3 @@ signed main () {
     while (t--) solve ();
     return 0;
 }
-
-/*
-Brief Problem Statement:
-Given N people and M pairs of friendships. Each friendship can sit in a group together.
-If there are people who are not friends with anyone, they can form a new group.
-IF there is only one person left without friends, they can join the existing group.
-You need to determine the minimum number of groups that can be formed.
-
-Solution:
-1. Create an adjacency list to represent friendships.
-2. Use BFS to traverse through each connected component of the graph.
-3. Count the number of connected components (groups).
-4. If there are unvisited nodes after BFS, they can form a new group. But if only one unvisited node remains, it can join an existing group.
-5. Print the total number of groups formed.
-*/

@@ -40,18 +40,3 @@ signed main () {
 
     return 0;
 }
-
-/*
-Brief Problem Statement:
-You have four types of lumpia: A, B, C, and D. You can eat a maximum of 3 lumpia in a day.
-You can't eat lumpia A and B on the same day, and you can't eat lumpia C and D on the same day.
-You should eat lumpia A first, then B, then C, and finally D.
-You need to determine the minimum number of days required to eat all the lumpia.
-
-Solution:
-1. If both B and C are zero, we can eat A and D together.
-2. If only B is zero, we can eat A and C together, and then D.
-3. If only C is zero, we can eat A first, then B and D together.
-4. If no lumpia is zero, we can eat A first, then B and C together, and finally D.
-The result is calculated based on how many lumpia can be eaten in a day (3 lumpia max).
-*/

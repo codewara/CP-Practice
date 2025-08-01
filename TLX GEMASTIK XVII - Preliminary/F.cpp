@@ -17,7 +17,7 @@ using namespace std;
 unordered_map<int, int> memo;
 
 int count_cost(int A, int P, int Q) {
-    if (A < 2) return A;
+    if (A == 1) return A;
     if (memo.count(A)) return memo[A];
 
     int cost = A;
@@ -32,11 +32,8 @@ int count_cost(int A, int P, int Q) {
 }
 
 void solve () {
-    int N, P, Q; cin >> N >> P >> Q;
-    while (N--) {
-        int A; cin >> A;
-        cout << count_cost (A, P, Q) << endl;
-    }
+    int A, N, P, Q; cin >> N >> P >> Q;
+    while (N--) cin >> A, cout << count_cost (A, P, Q) << endl;
 }
 
 signed main () {
@@ -45,11 +42,3 @@ signed main () {
     while (t--) solve ();
     return 0;
 }
-
-/*
-Brief Problem Statement:
-
-
-Solution:
-
-*/

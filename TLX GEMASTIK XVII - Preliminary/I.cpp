@@ -43,17 +43,3 @@ signed main () {
     while (t--) solve ();
     return 0;
 }
-
-/*
-Brief Problem Statement:
-Given N books and Q days. Each book has a price Aᵢ. On the i-th day, you can buy at most Xᵢ books in each transaction.
-If you buy exactly Xᵢ books, you will get a 50% discount on the cheapest book rounded down.
-You can buy books in multiple transactions on the same day.
-You need to determine the minimum amount of money you need to spend to buy all books for each day.
-
-Solution:
-1. Sort the array A in ascending order.
-2. Precompute the total cost for buying books in groups of size 2 to N.
-3. For each query, if Xᵢ is greater than N, output the total sum of prices; otherwise, output the precomputed cost for that group size.
-The precomputation allows for efficient querying, as it avoids recalculating the total cost for each query.
-*/
