@@ -99,8 +99,11 @@ You need to determine the maximum profit you can make.
 
 Solution:
 1. If N < 3, always output "tidak mungkin".
-2. If N == 3, print the profit if day 3's selling price is greater than day 1's buying price, otherwise print "tidak mungkin".
-3. For N > 3, calculate the maximum profit by iterating through the days and keeping track of the maximum selling price seen so far.
+2. If N == 3, output the profit if selling day will make profit, otherwise print "tidak mungkin".
+3. For N > 3, calculate the maximum profit by:
+   - Set initial profit value as the last selling price profit if you buy on last possible day.
+   - Iterate through the days from back to front, updating the maximum selling price seen so far.
+   - For each day, calculate the potential profit and update the maximum profit if it's higher.
 4. Output the maximum profit if it's positive, otherwise output "tidak mungkin".
 ```
 
