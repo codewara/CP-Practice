@@ -1,4 +1,4 @@
-# GEMASTIK XVII || 4 August 2024
+# GEMASTIK XVII - Preliminary || 4 August 2024
 ## [Problemset](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan)
 
 ## A. [Makan Lumpia](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/A)
