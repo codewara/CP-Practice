@@ -2,7 +2,7 @@
 ## [Editorial](https://codeforces.com/blog/entry/145152) || [Complete Problemset](https://codeforces.com/contest/2130/problems)
 
 ## A. [Submission is All You Need](https://codeforces.com/contest/2130/problem/A)
-### Tags: Greedy, Data Structures, Set
+### Tags: Greedy Algorithm, Data Structures, Set
 > **[My Solution](A.cpp)**
 ```
 Brief Problem Statement:
@@ -22,8 +22,8 @@ The final score is basically the count of zeros plus the sum of all positive int
 score = count(0) + sum(non-zero integers)
 ```
 
-## B. [Pathless](https://codeforces.com/contest/2130/problem/A)
-### Tags: Greedy, Case Analysis, Constructive Algorithms
+## B. [Pathless](https://codeforces.com/contest/2130/problem/B)
+### Tags: Greedy Algorithm, Case Analysis, Constructive Algorithms
 > **[My Solution](B.cpp)**
 ```
 Brief Problem Statement:
@@ -51,11 +51,11 @@ Solution:
 ```
 
 ## C. [Double Perspective](https://codeforces.com/contest/2130/problem/C)
-### Tags: Graph Theory, Intervals, Greedy
+### Tags: Graph, Intervals, Greedy Algorithm
 > No solution yet
 
 ## D. [Stay or Mirror](https://codeforces.com/contest/2130/problem/D)
-### Tags: Dynamic Programming, Inversions, Greedy
+### Tags: Dynamic Programming, Inversions, Greedy Algorithm
 > No solution yet
 
 ## E. Interactive RBS [(Easy)](https://codeforces.com/contest/2130/problem/E1) [(Medium)](https://codeforces.com/contest/2130/problem/E2) [(Hard)](https://codeforces.com/contest/2130/problem/E3)

@@ -2,7 +2,7 @@
 ## [Problemset](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan)
 
 ## A. [Makan Lumpia](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/A)
-### Tags: Greedy, Simulation, Constraint Handling
+### Tags: Greedy Algorithm, Simulation, Constraint Handling
 > **[My Solution](A.cpp)**
 ```
 Brief Problem Statement:
@@ -36,7 +36,7 @@ Solution:
 ```
 
 ## C. [Piknik](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/C)
-### Tags: Graph, Greedy, Connected Components
+### Tags: Graph Theory, Greedy Algorithm, Connected Components
 > **[My Solution](C.cpp)**
 ```
 Brief Problem Statement:
@@ -63,7 +63,7 @@ Solution:
 > No solution yet
 
 ## F. [Serangan Benteng](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/F)
-### Tags: Dynamic Programming, Greedy, Game Theory
+### Tags: Dynamic Programming, Greedy Algorithm, Game Theory
 > **[My Solution](F.cpp)**
 ```
 rief Problem Statement:
@@ -89,7 +89,7 @@ Solution:
 ```
 
 ## G. [Reseller Topi Gemastik](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/G)
-### Tags: Greedy, Array Manipulation, Optimization
+### Tags: Greedy Algorithm, Array Manipulation, Optimization
 > **[My Solution](G.cpp)**
 ```
 Brief Problem Statement:
@@ -112,7 +112,7 @@ Solution:
 > No solution yet
 
 ## I. [Diskon 50%, S&K Berlaku](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/I)
-### Tags: Greedy, Optimization, Sorting
+### Tags: Greedy Algorithm, Optimization, Sorting
 > **[My Solution](I.cpp)**
 ```
 Brief Problem Statement:
@@ -130,7 +130,7 @@ The precomputation allows for efficient querying, as it avoids recalculating the
 ```
 
 ## J. [Tupai Loncat](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/J)
-### Tags: Greedy, Sorting, Optimization
+### Tags: Greedy Algorithm, Sorting, Optimization
 > **[My Solution](J.cpp)**
 ```
 Brief Problem Statement:
