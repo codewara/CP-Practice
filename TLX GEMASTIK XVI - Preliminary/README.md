@@ -3,7 +3,20 @@
 
 ## A. [Es Kopi Boba](https://tlx.toki.id/problems/gemastik-2023-pemrograman-penyisihan/A)
 ### Tags: Greedy Algorithm, Case Analysis, Simulation
-> No solution yet
+> **[My Solution](A.cpp)**
+```
+Brief Problem Statement:
+Given N cups of iced coffee boba, each with a certain amount of volume.
+You need to ensure that all cups have the same volume by transferring volume between them.
+You need to determine if it's possible to achieve this and if so, how to do it.
+
+Solution:
+1. Calculate the total volume and check if it can be evenly divided by N.
+2. If not, print "TIDAK SESUAI" (not suitable).
+3. If it can, check the differences between each cup's volume and the average.
+   Note that there can be at most two cups with different volumes.
+4. If all differences can be resolved by transferring volume between cups, print the transfer details.
+```
 
 ## B. [Flappy Angry Birds](https://tlx.toki.id/problems/gemastik-2023-pemrograman-penyisihan/B)
 ### Tags: Computational Geometry, Linear Equations, Binary Search
