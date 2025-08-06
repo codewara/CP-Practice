@@ -1,7 +1,7 @@
-# GEMASTIK XVII - Preliminary || 4 August 2024
-## [Problemset](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan)
+# GEMASTIK XVII - Preliminary || 24 September 2024
+## [Problemset](https://tlx.toki.id/problems/gemastik-2024-pemrograman-final)
 
-## A. Antibakteri [(Easy)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/A1) [(Hard)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/A2)
+## A. Antibakteri [(Easy)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-final/A1) [(Hard)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-final/A2)
 ### Tags: Game Theory, Grundy Values / Nim-Sum, Coordinate Compression
 ```
 Brief Problem Statement:
@@ -46,38 +46,38 @@ Solution: (N >= 1)
    If the result is 0, Gema is in absolute losing game and Astik will win; otherwise, Gema will win.
 ```
 
-## B. [Bebas + Beras = Bebras](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/B)
+## B. [Bebas + Beras = Bebras](https://tlx.toki.id/problems/gemastik-2024-pemrograman-final/B)
 ### Tags: Dynamic Programming, String Algorithms, Longest Common Subsequence (LCS)
 > No solution yet
 
-## C. [Cari Donat Semarang](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/C)
+## C. [Cari Donat Semarang](https://tlx.toki.id/problems/gemastik-2024-pemrograman-final/C)
 ### Tags: Matrix, Dynamic Programming, Prefix/Suffix Sum
 > No solution yet
 
-## D. Distribusi Air [(Easy)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/D1) [(Hard)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/D2)
+## D. Distribusi Air [(Easy)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-final/D1) [(Hard)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-final/D2)
 ### Tags: Graph Theory, Union-Find/Disjoint Set Union (DSU), Offline Processing
 > No solution yet
 
-## E. [Enaknya Makan Lumpia Lagi](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/E)
+## E. [Enaknya Makan Lumpia Lagi](https://tlx.toki.id/problems/gemastik-2024-pemrograman-final/E)
 ### Tags: Greedy Algorithm, Scheduling / Resource Allocation, Data Structures
 > No solution yet
 
-## F. Formasi Pertahanan [(Easy)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/F1) [(Hard)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/F2)
+## F. Formasi Pertahanan [(Easy)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-final/F1) [(Hard)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-final/F2)
 ### Tags: Matrix, Prefix Sum, Optimization
 > No solution yet
 
-## G. Gundu [(Easy)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/G1) [(Hard)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/G2)
+## G. Gundu [(Easy)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-final/G1) [(Hard)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-final/G2)
 ### Tags: Computational Geometry, Simulation, Data Structures
 > No solution yet
 
-## H. [Hitung Biner](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/H)
+## H. [Hitung Biner](https://tlx.toki.id/problems/gemastik-2024-pemrograman-final/H)
 ### Tags: Dynamic Programming, Combinatorics, Binary Operation
 > No solution yet
 
-## I. Inselfsert [(Easy)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/I1) [(Hard)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/I2)
+## I. Inselfsert [(Easy)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-final/I1) [(Hard)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-final/I2)
 ### Tags: Number Theory, Dynamic Programming with Modulo, Digit DP
 > No solution yet
 
-## J. Jamur Ajaib [(Easy)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/J1) [(Hard)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-penyisihan/J2)
+## J. Jamur Ajaib [(Easy)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-final/J1) [(Hard)](https://tlx.toki.id/problems/gemastik-2024-pemrograman-final/J2)
 ### Tags: Greedy Algorithm, System of Linear Equations, Circular Array / Ring
 > No solution yet
