@@ -17,7 +17,7 @@ using namespace std;
 unordered_map<int, int> memo;
 
 int count_cost(int A, int P, int Q) {
-    if (A == 1) return A;
+    if (A < 1) return A;
     if (memo.count(A)) return memo[A];
 
     int cost = A;
